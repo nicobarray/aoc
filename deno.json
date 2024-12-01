@@ -1,6 +1,9 @@
 {
   "name": "@noidet/aoc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
-  "exports": "./main.ts"
+  "exports": "./main.ts",
+  "tasks": {
+    "compile": "deno compile -A ./main.ts"
+  }
 }
